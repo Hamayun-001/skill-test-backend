@@ -11,7 +11,7 @@ const server = new ApolloServer({ typeDefs, resolvers });
 
 await server.start();
 
-const allowedOrigins = ["http://129.212.226.236:4000"];
+const allowedOrigins = ["https://skill-test-frontend-ten.vercel.app/"];
 app.use(
   "/graphql",
   cors({
