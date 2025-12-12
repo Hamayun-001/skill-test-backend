@@ -11,7 +11,7 @@ const server = new ApolloServer({ typeDefs, resolvers });
 
 await server.start();
 
-const allowedOrigins = ["https://skill-test-frontend-ten.vercel.app/"];
+const allowedOrigins = ["https://apiskilltest.tekbex.com"];
 app.use(
   "/graphql",
   cors({
